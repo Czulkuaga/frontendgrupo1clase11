@@ -47,6 +47,7 @@ main section .container:nth-child(2){
 
 main section .container:nth-child(2) div{
     width: 33.33%;
+    overflow: hidden;
 }
 
 main section .container:nth-child(2) div h3{
@@ -60,8 +61,7 @@ main section .container:nth-child(2) div figure{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    overflow: hidden;
+    margin-left: 0px;
 }
 
 main section .container:nth-child(2) div:nth-child(1) figure img{
@@ -74,4 +74,38 @@ main section .container:nth-child(2) div:nth-child(2) figure img{
 
 main section .container:nth-child(2) div:nth-child(3) figure img{
     width: 97%;
+}
+
+/* Contenedor 3 */
+
+main section .container:nth-child(3){
+    width: 100%;
+    display: flex;
+}
+
+main section .container:nth-child(3) div{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section .container:nth-child(3) div h2{
+    font-size: 2.4em;
+    background-color: rgba(255,255,255,0.5);
+}
+
+main section .container:nth-child(3) div:nth-child(1){
+    background-image: url('https://www.fundeu.es/wp-content/uploads/2011/01/hab%C3%ADan-muchas-personas.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main section .container:nth-child(3) div:nth-child(2){
+    background-image: url('https://www.questionpro.com/blog/wp-content/uploads/2020/12/1569-768x512.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
